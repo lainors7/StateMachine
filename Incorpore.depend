@@ -1,0 +1,116 @@
+# depslib dependency file v1.0
+1555457257 source:/home/oscar/Desktop/Maquina de Estados/Incorpore/src/Animacion.cpp
+	<iostream>
+	"../include/Animacion.h"
+
+1555274848 /home/oscar/Desktop/Maquina de Estados/Incorpore/include/Animacion.h
+	<SFML/Graphics.hpp>
+
+1555456319 source:/home/oscar/Desktop/Maquina de Estados/Incorpore/src/Arma.cpp
+	"../include/Arma.h"
+
+1555456319 /home/oscar/Desktop/Maquina de Estados/Incorpore/include/Arma.h
+	<SFML/Graphics.hpp>
+	<cmath>
+	<iostream>
+	"Enemigo.h"
+
+1555456319 /home/oscar/Desktop/Maquina de Estados/Incorpore/include/Enemigo.h
+	"Entidad.h"
+	"Posicion.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<vector>
+
+1555449017 /home/oscar/Desktop/Maquina de Estados/Incorpore/include/Entidad.h
+	<SFML/Graphics.hpp>
+	"Animacion.h"
+
+1555274848 /home/oscar/Desktop/Maquina de Estados/Incorpore/include/Posicion.h
+
+1555456319 source:/home/oscar/Desktop/Maquina de Estados/Incorpore/src/Astar.cpp
+	<iostream>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+	<math.h>
+	"../include/Astar.h"
+	"../include/Posicion.h"
+
+1555274848 /home/oscar/Desktop/Maquina de Estados/Incorpore/include/Astar.h
+	<vector>
+	<string>
+	"Posicion.h"
+
+1555456456 source:/home/oscar/Desktop/Maquina de Estados/Incorpore/src/Consumible.cpp
+	"../include/Consumible.h"
+
+1555456319 /home/oscar/Desktop/Maquina de Estados/Incorpore/include/Consumible.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	"time.h"
+
+1555456319 source:/home/oscar/Desktop/Maquina de Estados/Incorpore/src/Enemigo.cpp
+	"../include/Enemigo.h"
+
+1555456319 source:/home/oscar/Desktop/Maquina de Estados/Incorpore/src/Entidad.cpp
+	"../include/Entidad.h"
+	<iostream>
+
+1555453733 source:/home/oscar/Desktop/Maquina de Estados/Incorpore/src/EstadoJuego.cpp
+	"EstadoJuego.h"
+
+1555455792 /home/oscar/Desktop/Maquina de Estados/Incorpore/include/EstadoJuego.h
+	"Juego.h"
+
+1555457636 /home/oscar/Desktop/Maquina de Estados/Incorpore/include/Juego.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	"Arma.h"
+	"Hud.h"
+	"Mapa.h"
+	"Consumible.h"
+	"EstadoJuego.h"
+	<memory>
+	<stack>
+
+1555456319 /home/oscar/Desktop/Maquina de Estados/Incorpore/include/Jugador.h
+	<SFML/Graphics.hpp>
+	<cmath>
+	<iostream>
+	"Entidad.h"
+	"Enemigo.h"
+	"Animacion.h"
+	"Arma.h"
+
+1555457985 /home/oscar/Desktop/Maquina de Estados/Incorpore/include/Hud.h
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+
+1555457522 /home/oscar/Desktop/Maquina de Estados/Incorpore/include/Mapa.h
+	"tinyxml2.h"
+	"Jugador.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555274848 /home/oscar/Desktop/Maquina de Estados/Incorpore/include/tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
+
+1555456319 source:/home/oscar/Desktop/Maquina de Estados/Incorpore/src/Hud.cpp
+	<SFML/Graphics.hpp>
+	"../include/Hud.h"
+

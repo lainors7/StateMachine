@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Incorpore" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Incorpore" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Incorpore" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="cb.bmp" />
+		<Unit filename="include/Animacion.h" />
+		<Unit filename="include/Arma.h" />
+		<Unit filename="include/Astar.h" />
+		<Unit filename="include/Consumible.h" />
+		<Unit filename="include/Enemigo.h" />
+		<Unit filename="include/Entidad.h" />
+		<Unit filename="include/EstadoJuego.h" />
+		<Unit filename="include/Hud.h" />
+		<Unit filename="include/Juego.h" />
+		<Unit filename="include/Jugador.h" />
+		<Unit filename="include/Mapa.h" />
+		<Unit filename="include/Menu.h" />
+		<Unit filename="include/MenuGestion.h" />
+		<Unit filename="include/Posicion.h" />
+		<Unit filename="include/tinyxml2.h" />
+		<Unit filename="resources/hud/abilities.png" />
+		<Unit filename="resources/hud/coolvetica.ttf" />
+		<Unit filename="resources/hud/habilidades.png" />
+		<Unit filename="resources/hud/heart-life.png" />
+		<Unit filename="resources/sprites/Kyrises_16x16_RPG_Icon_Pack_V1.2.zip" />
+		<Unit filename="resources/sprites/caballero.png" />
+		<Unit filename="resources/sprites/elfa.png" />
+		<Unit filename="resources/sprites/enemigos.png" />
+		<Unit filename="resources/sprites/personajes.png" />
+		<Unit filename="resources/sprites/spritesheets.txt" />
+		<Unit filename="resources/sprites/sword.png" />
+		<Unit filename="resources/tmx/Antorcha.tmx" />
+		<Unit filename="resources/tmx/Caja.tmx" />
+		<Unit filename="resources/tmx/CajaDoble.tmx" />
+		<Unit filename="resources/tmx/Calavera.tmx" />
+		<Unit filename="resources/tmx/Cofre.tmx" />
+		<Unit filename="resources/tmx/Columna.tmx" />
+		<Unit filename="resources/tmx/Mapa.tmx" />
+		<Unit filename="resources/tmx/Mapa2.tmx" />
+		<Unit filename="resources/tmx/Mapa3.tmx" />
+		<Unit filename="resources/tmx/Pocion.tmx" />
+		<Unit filename="resources/tmx/PocionMini.tmx" />
+		<Unit filename="resources/tmx/tileset.png" />
+		<Unit filename="src/Animacion.cpp" />
+		<Unit filename="src/Arma.cpp" />
+		<Unit filename="src/Astar.cpp" />
+		<Unit filename="src/Consumible.cpp" />
+		<Unit filename="src/Enemigo.cpp" />
+		<Unit filename="src/Entidad.cpp" />
+		<Unit filename="src/EstadoJuego.cpp" />
+		<Unit filename="src/Hud.cpp" />
+		<Unit filename="src/Juego.cpp" />
+		<Unit filename="src/Jugador.cpp" />
+		<Unit filename="src/Mapa.cpp" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/MenuGestion.cpp" />
+		<Unit filename="src/Posicion.cpp" />
+		<Unit filename="src/controles.png" />
+		<Unit filename="src/fondoMenu.png" />
+		<Unit filename="src/letrasmenu.ttf" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/manaspc.ttf" />
+		<Unit filename="src/menu2.jpeg" />
+		<Unit filename="src/never.ttf" />
+		<Unit filename="src/tinyxml2.cpp" />
+		<Unit filename="src/titulo.ttf" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
